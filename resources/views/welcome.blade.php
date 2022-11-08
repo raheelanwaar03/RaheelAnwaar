@@ -9,25 +9,25 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
     {{-- This website is developed by Raheel Awaar.Whats app (03167007156) --}}
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/preloader.min.css" rel="stylesheet">
-    <link href="css/circle.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/skins/yellow.css" rel="stylesheet">
-    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
-    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
-    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
-    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
-    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
-    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
-    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
-    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
-    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
-    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
-    <script src="js/modernizr.custom.js"></script>
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/preloader.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/circle.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/fm.revealator.jquery.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/skins/yellow.css') }}" rel="stylesheet">
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="{{ asset('assets/css/skins/blue.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="{{ asset('assets/css/skins/green.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="{{ asset('assets/css/skins/yellow.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="{{ asset('assets/css/skins/blueviolet.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="{{ asset('assets/css/skins/goldenrod.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="{{ asset('assets/css/skins/magenta.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="{{ asset('assets/css/skins/orange.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="{{ asset('assets/css/skins/purple.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="{{ asset('assets/css/skins/red.css') }}" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="{{ asset('assets/css/skins/yellowgreen.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/styleswitcher.css') }}" />
+    <script src="{{ asset('assets/js/modernizr.custom.js') }}"></script>
 </head>
 
 <body class="home">
@@ -37,43 +37,43 @@
             <ul>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img
-                            src="img/styleswitcher/purple.png" alt="purple" /></a>
+                            src="{{ asset('assets/img/styleswitcher/purple.png') }}" alt="purple" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img
-                            src="img/styleswitcher/red.png" alt="red" /></a>
+                            src="{{ asset('assets/img/styleswitcher/red.png') }}" alt="red" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet"
-                        class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet" /></a>
+                        class="color"><img src="{{ asset('assets/img/styleswitcher/blueviolet.png') }}" alt="blueviolet" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img
-                            src="img/styleswitcher/blue.png" alt="blue" /></a>
+                            src="{{ asset('assets/img/styleswitcher/blue.png') }}" alt="blue" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img
-                            src="img/styleswitcher/goldenrod.png" alt="goldenrod" /></a>
+                            src="{{ asset('assets/img/styleswitcher/goldenrod.png') }}" alt="goldenrod" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img
-                            src="img/styleswitcher/magenta.png" alt="magenta" /></a>
+                            src="{{ asset('assets/img/styleswitcher/magenta.png') }}" alt="magenta" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen"
-                        class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen" /></a>
+                        class="color"><img src="{{ asset('assets/img/styleswitcher/yellowgreen.png') }}" alt="yellowgreen" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img
-                            src="img/styleswitcher/orange.png" alt="orange" /></a>
+                            src="{{ asset('assets/img/styleswitcher/orange.png') }}" alt="orange" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img
-                            src="img/styleswitcher/green.png" alt="green" /></a>
+                            src="{{ asset('assets/img/styleswitcher/green.png') }}" alt="green" /></a>
                 </li>
                 <li>
                     <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img
-                            src="img/styleswitcher/yellow.png" alt="yellow" /></a>
+                            src="{{ asset('assets/img/styleswitcher/yellow.png') }}" alt="yellow" /></a>
                 </li>
             </ul>
             <div id="hideSwitcher">&times;</div>
@@ -136,7 +136,7 @@
             <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
             <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
                 <div>
-                    <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
+                    <img src="{{ asset('assets/img/raheelanwaar.jpg') }}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
                         alt="my picture" />
                     <h1 class="text-uppercase poppins-font">I'm Raheel Anwaar<span>Web Developer</span></h1>
                     <p class="open-sans-font">I'm a Professional back-end & front‑end developer focused on
@@ -150,18 +150,18 @@
             </div>
         </div>
     </section>
-    <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="js/styleswitcher.js"></script>
-    <script src="js/preloader.min.js"></script>
-    <script src="js/fm.revealator.jquery.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpGridGallery.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ asset('assets/js/jquery-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/styleswitcher.js') }}"></script>
+    <script src="{{ asset('assets/js/preloader.min.js') }}"></script>
+    <script src="{{ asset('assets/js/fm.revealator.jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/classie.js') }}"></script>
+    <script src="{{ asset('assets/js/cbpGridGallery.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.hoverdir.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 </body>
 </html>
