@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    {{-- This website is developed by Raheel Awaar.Whats app (03167007156) --}}
 <head>
     <meta charset="utf-8">
-    <title>Tunis - Personal Portfolio</title>
+    <title>Raheel Anwaar Full-stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
-    {{-- This website is developed by Raheel Awaar.Whats app (03167007156) --}}
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/preloader.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/circle.css') }}" rel="stylesheet">
@@ -85,7 +84,7 @@
             <li class="icon-box active">
                 <i class="fa fa-home"></i>
                 <a href="index.html">
-                    <h2>Home</h2>
+                    <h2>Dashboard</h2>
                 </a>
             </li>
             <li class="icon-box">
@@ -120,7 +119,7 @@
                 <span></span>
                 <span></span>
                 <ul class="list-unstyled" id="menu">
-                    <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                    <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
                     <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
                     <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                     <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
