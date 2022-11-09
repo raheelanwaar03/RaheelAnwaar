@@ -7,13 +7,13 @@
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
         <li class="icon-box active">
             <i class="fa fa-home"></i>
-            <a href="index.html">
+            <a href="{{ route('LandingPage') }}">
                 <h2>Dashboard</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-user"></i>
-            <a href="about.html">
+            <a href="{{ route('LandingPage.About') }}">
                 <h2>About</h2>
             </a>
         </li>
@@ -43,8 +43,8 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li class="active"><a href="{{ route('LandingPage') }}"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
+                <li><a href="{{ route('LandingPage.About') }}"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
@@ -65,7 +65,7 @@
                 <p class="open-sans-font">I'm a Professional back-end & front‑end developer focused on
                     crafting clean & user‑friendly experiences, I am passionate about building excellent website's
                     that improves the lives of those around me.</p>
-                <a class="button" href="about.html">
+                <a class="button" href="{{ route('LandingPage.About') }}">
                     <span class="button-text">more about me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
                 </a>
