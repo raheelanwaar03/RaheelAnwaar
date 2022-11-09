@@ -3,7 +3,7 @@
     {{-- This website is developed by Raheel Awaar.Whats app (03167007156) --}}
 <head>
     <meta charset="utf-8">
-    <title>Raheel Anwaar Full-stack Developer</title>
+    <title>Raheel Anwaar Laravel full-stack Developer.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
