@@ -25,7 +25,7 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
+            <a href="{{ route('LandingPage.contact') }}">
                 <h2>Contact</h2>
             </a>
         </li>
@@ -46,7 +46,7 @@
                 <li class="active"><a href="{{ route('LandingPage') }}"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
                 <li><a href="{{ route('LandingPage.About') }}"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="{{ route('LandingPage.contact') }}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
