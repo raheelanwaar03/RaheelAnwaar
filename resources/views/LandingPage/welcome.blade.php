@@ -59,7 +59,7 @@
         <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
         <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
             <div>
-                <img src="{{ asset('assets/img/raheelanwaar.jpg') }}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
+                <img src="{{ asset('assets/img/raheelanwaar.png') }}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
                     alt="my picture" />
                 <h1 class="text-uppercase poppins-font">I'm Raheel Anwaar<span>Web Developer</span></h1>
                 <p class="open-sans-font">I'm a Professional back-end & front‑end developer focused on
